@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  width: 85vw;
+  text-align: start;
+  margin: 5%;
+}
+
+.authors-btn {
+  border-radius: 5px;
+  background-color: lightblue;
+  color: white;
+  border: none;
+  margin: 15px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.delete-btn{
+  border-radius: 5px;
+  background-color: darkred;
+  color: white;
+  border: none;
+  margin: 15px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.box-border {
+  border: solid black 1px;
+  width: 30vw;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+label {
+  margin: 15px 15px 5px 15px;
+}
+
+input {
+  width: 20vw;
+  margin: 15px 15px 5px 15px;
+  padding: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 5px 2px rgb(149, 207, 226);
+  transform: translateY(-1px)
+}
+
+input:focus{
+  outline-color: rgb(99, 193, 225);
+}
+
+.link-style {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+.errStyle {
+  color: red;
+  margin: 15px;
+}
+
+.table-style {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.mt-3 {
+  margin-top: 25px;
+}
